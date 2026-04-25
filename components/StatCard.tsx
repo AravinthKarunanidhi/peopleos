@@ -5,8 +5,9 @@ interface StatCardProps {
   value: string;
   valueClass?: string;
   sub: ReactNode;
-  iconBg: string;
+  iconBg?: string;     
   icon: ReactNode;
+  iconBgClass?: string;
 }
 
 export default function StatCard({ title, value, valueClass, sub, iconBg, icon }: StatCardProps) {
